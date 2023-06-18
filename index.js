@@ -12,7 +12,6 @@ app.get('/time', (req, res) => {
     time:new Date()
   })
 })
-const port = 8080
 app.listen(port, function () {
-  console.log('Express server running at http://127.0.0.1:' + port)
+  console.log('Express server running at http://127.0.0.1:')
 })
